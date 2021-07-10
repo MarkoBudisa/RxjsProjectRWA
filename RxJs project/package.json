@@ -1,0 +1,29 @@
+{
+  "name": "rxjs-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.js",
+    "watch": "webpack --watch --config webpack.config.js",
+    "api": "json-server database.json --watch",
+    "server": "nodemon ./src/server/app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.17.12",
+    "@types/node": "^16.0.0",
+    "nodemon": "^2.0.9",
+    "ts-loader": "^9.2.3",
+    "typescript": "^4.3.2",
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.1"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "node": "^16.4.0",
+    "rxjs": "^7.1.0"
+  }
+}

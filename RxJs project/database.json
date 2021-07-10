@@ -1,0 +1,128 @@
+{
+    "flights": [
+        {
+            "id": 1,
+            "airplane": {
+                "id": 1,
+                "name": "MIG272",
+                "capacityClassA": 10,
+                "capacityClassB": 15,
+                "capacityClassC": 20
+            },
+            "company": {
+                "id": 1,
+                "name": "AirSerbia",
+                "country": "Serbia",
+                "numberOfFlights": 269
+            },
+            "fromLocation": "Belgrade",
+            "toLocation": "Dubai",
+            "dateOfStart": "28.07.2021.",
+            "price": 35
+        },
+        {
+            "id": 2,
+            "airplane": {
+                "id": 2,
+                "name": "BOING747",
+                "capacityClassA": 12,
+                "capacityClassB": 20,
+                "capacityClassC": 23
+            },
+            "company": {
+                "id": 1,
+                "name": "AirSerbia",
+                "country": "Serbia",
+                "numberOfFlights": 269
+            },
+            "fromLocation": "Nis",
+            "toLocation": "Berlin",
+            "dateOfStart": "30.07.2021.",
+            "price": 22
+        },
+        {
+            "id": 3,
+            "airplane": {
+                "id": 3,
+                "name": "ARROW14",
+                "capacityClassA": 15,
+                "capacityClassB": 23,
+                "capacityClassC": 30
+            },
+            "company": {
+                "id": 2,
+                "name": "FlyDubai",
+                "country": "UAE",
+                "numberOfFlights": 345
+            },
+            "fromLocation": "Moskow",
+            "toLocation": "Peking",
+            "dateOfStart": "03.08.2021.",
+            "price": 120
+        },
+        {
+            "id": 4,
+            "airplane": {
+                "id": 4,
+                "name": "BOING777",
+                "capacityClassA": 11,
+                "capacityClassB": 16,
+                "capacityClassC": 22
+            },
+            "company": {
+                "id": 2,
+                "name": "FlyDubai",
+                "country": "UAE",
+                "numberOfFlights": 345
+            },
+            "fromLocation": "New York",
+            "toLocation": "Denver",
+            "dateOfStart": "28.09.2021.",
+            "price": 94
+        }
+    ],
+    "airplanes": [
+        {
+            "id": 1,
+            "name": "MIG272",
+            "capacityClassA": 10,
+            "capacityClassB": 15,
+            "capacityClassC": 20
+        },
+        {
+            "id": 2,
+            "name": "BOING747",
+            "capacityClassA": 12,
+            "capacityClassB": 20,
+            "capacityClassC": 23
+        },
+        {
+            "id": 3,
+            "name": "ARROW14",
+            "capacityClassA": 15,
+            "capacityClassB": 23,
+            "capacityClassC": 30
+        },
+        {
+            "id": 4,
+            "name": "BOING777",
+            "capacityClassA": 11,
+            "capacityClassB": 16,
+            "capacityClassC": 22
+        }
+    ],
+    "companies": [
+        {
+            "id": 1,
+            "name": "AirSerbia",
+            "country": "Serbia",
+            "numberOfFlights": 269
+        },
+        {
+            "id": 2,
+            "name": "FlyDubai",
+            "country": "UAE",
+            "numberOfFlights": 345
+        }
+    ]
+}

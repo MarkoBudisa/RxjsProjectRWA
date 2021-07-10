@@ -1,0 +1,138 @@
+.flight-info{
+  display: flex;
+  background-color: whitesmoke;
+  border-bottom: 1px solid black;
+  margin-bottom: 4px;
+}
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: whitesmoke;
+}
+.flight-info:hover{
+  cursor: pointer;
+}
+.main-box-search{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.close-button{
+  display: flex;
+  align-self: flex-end;
+  font-size: large;
+}
+
+.label-search{
+  display: flex;
+  font-size: x-large;
+  margin: 5px;
+}
+
+.results-box{
+  display: flex;
+  flex-direction: column;
+
+}
+
+.seat{
+  display: flex;
+  height: 15px;
+  width: 15px;
+  border: 1px solid black;
+  margin: 2px;
+}
+
+.plane-view{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  border: 2px solid lightblue;
+  margin: 4px;
+}
+
+.class-box{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 150px;
+  height: 150px;
+  border: 2px solid gray;
+  margin: 4px;
+}
+.container-simulators{
+  display: flex;
+  flex-direction: row;
+  align-self: stretch;
+}
+@media only screen and (max-width: 1250px){
+  .container-simulators{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .flight-simulator-box{
+    align-items: center;
+
+  }
+  .go-in-simulator-box{
+    align-items: center;
+  }
+}
+.label-note{
+  color: red;
+}
+.go-in-simulator-box{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  align-items: center;
+  justify-self: flex-start;
+}
+.start-simulation-button{
+  display: flex;
+  margin: 7px;
+  box-shadow:inset 0px 1px 0px 0px #ffffff;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+  font-size: 15px;
+}
+.start-simulation-button:hover{
+  cursor: pointer;
+}
+.start-flights-button:hover{
+  cursor: pointer;
+}
+.flight-simulator-box{
+  display: flex;
+  flex-direction: column;
+  justify-self: flex-end;
+  align-items: center;
+  width: 50%;
+  justify-content: space-around;
+}
+.start-flights-button{
+  display: flex;
+  margin: 7px;
+  box-shadow:inset 0px 1px 0px 0px #ffffff;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	font-size:15px;
+}
+.select-number-passengers{
+  display: flex;
+  align-self: flex-start;
+  margin: 5px;
+}
+.select-way-of-enter{
+  display: flex;
+  align-self: flex-start;
+  margin: 5px;
+}
+
